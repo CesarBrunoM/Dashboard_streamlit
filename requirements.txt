@@ -1,4 +1,4 @@
 pandas==2.3.3
-plotly==6.5.2git
+plotly==6.5.2
 requests==2.32.5
 xlsxwriter==3.2.9
