@@ -4,12 +4,10 @@ import requests
 import plotly.express as px
 from datetime import datetime
 
-icon = r'Image\shopping_cart_checkout.png'
-
 data_atual = datetime.now()
 ano_atual = data_atual.year
 
-st.set_page_config(page_title='Gestão de Vendas', page_icon=icon,layout='wide')
+st.set_page_config(page_title='Gestão de Vendas', layout='wide')
 
 def formatar_numero(valor, prefixo = ''):
     for unidade in ['', 'Mil']:
