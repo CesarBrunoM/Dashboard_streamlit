@@ -4,9 +4,6 @@ import pandas as pd
 import time
 import io
 
-
-icon = r'C:\Users\bruno.lima\Music\streamlit\Image\shopping_cart_checkout.png'
-
 @st.cache_data
 def converte_excel(df, formato):
     if formato == 'csv':
@@ -25,7 +22,7 @@ def mensagem_sucesso():
     
         
 st.title('DADOS BRUTOS')
-st.set_page_config(page_title='Gestão de Vendas', page_icon=icon,layout='wide')
+st.set_page_config(page_title='Gestão de Vendas', layout='wide')
 
 url = 'https://labdados.com/produtos'
 avaliacao_lista = [1,2,3,4,5]

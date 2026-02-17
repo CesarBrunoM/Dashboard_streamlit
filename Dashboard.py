@@ -4,7 +4,8 @@ import requests
 import plotly.express as px
 from datetime import datetime
 
-icon = r'C:\Users\bruno.lima\Music\streamlit\Image\shopping_cart_checkout.png'
+icon = r'Image\shopping_cart_checkout.png'
+
 data_atual = datetime.now()
 ano_atual = data_atual.year
 
